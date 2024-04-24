@@ -1,0 +1,158 @@
+:root {
+  --light-text: white;
+  --dark-text: #333333;
+}
+
+h1 {
+  color: purple;
+}
+
+p {
+  font-size: 30px;
+}
+
+figure {
+  width: 20%;
+}
+
+#fetchedPokemonName {
+  font-weight: bold;
+  font-family: Consolas;
+  font-size: 34px;
+  width: 20%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 1px;
+  padding: 1px;
+}
+
+button {
+  color: white;
+  background-color: darksalmon;
+  border: 2px solid black;
+  font-weight: bolder;
+  font-size: 22px;
+  cursor: pointer;
+  padding: 4px;
+}
+
+#pokemonType {
+  display: flex;
+  justify-content: center;
+  flex-direction: center;
+  align-items: center;
+  width: 20%;
+  height: 20%;
+}
+#pokemonType p {
+  width: 80%;
+  height: 80%;
+  text-align: center;
+  margin: 1px;
+  padding: 1px;
+}
+
+#pokemonSprite {
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes floating {
+  0% {
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translateX(13px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+#ice {
+  background-color: #96d9d6;
+  color: var(--dark-text);
+}
+
+#fire {
+  background-color: #ee8130;
+  color: var(--light-text);
+}
+
+#fairy {
+  background-color: #d685ad;
+  color: var(--dark-text);
+}
+
+#ghost {
+  background-color: #735797;
+  color: var(--light-text);
+}
+
+#dragon {
+  background-color: #6f35fc;
+  color: var(--light-text);
+}
+
+#electric {
+  background-color: #f7d02c;
+  color: var(--dark-text);
+}
+
+#steel {
+  background-color: #b7b7ce;
+  color: var(--dark-text);
+}
+
+#rock {
+  background-color: #b6a136;
+  color: var(--dark-text);
+}
+
+#ground {
+  background-color: #e2bf65;
+  color: var(--dark-text);
+}
+
+#dark {
+  background-color: #705848;
+  color: var(--light-text);
+}
+
+#poison {
+  background-color: #a33ea1;
+  color: var(--light-text);
+}
+
+#bug {
+  background-color: #a6b91a;
+  color: var(--dark-text);
+}
+
+#psychic {
+  background-color: #f95587;
+  color: var(--light-text);
+}
+
+#flying {
+  background-color: #a98ff3;
+  color: var(--dark-text);
+}
+
+#grass {
+  background-color: #7ac74c;
+  color: var(--dark-text);
+}
+
+#normal {
+  background-color: #a8a77a;
+  color: var(--dark-text);
+}
+
+#water {
+  background-color: #6390f0;
+  color: var(--light-text);
+}
